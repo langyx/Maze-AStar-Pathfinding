@@ -11,7 +11,7 @@ import SwiftUI
 struct MazProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MazeView(map: Map.testMap)
         }
     }
 }
